@@ -14,11 +14,7 @@ const Cart = () => {
         <div className="row">
           <div className="col-md-12 py-5 bg-light text-center">
             <h4 className="p-3 display-5">Your Cart is Empty</h4>
-<<<<<<< HEAD
             <Link to="/" className="btn btn-outline-dark mx-4">
-=======
-            <Link to="/" className="btn  btn-outline-dark mx-4">
->>>>>>> 28d2c2c9e964a60e1b1521db4121bcbb985b360f
               <i className="fa fa-arrow-left"></i> Continue Shopping
             </Link>
           </div>
@@ -47,11 +43,7 @@ const Cart = () => {
     });
     return (
       <>
-<<<<<<< HEAD
         <section className="h-100" style={{ backgroundColor: "#e6e6fa" }}>
-=======
-        <section className="h-100 gradient-custom">
->>>>>>> 28d2c2c9e964a60e1b1521db4121bcbb985b360f
           <div className="container py-5">
             <div className="row d-flex justify-content-center my-4">
               <div className="col-md-8">
@@ -71,10 +63,6 @@ const Cart = () => {
                               >
                                 <img
                                   src={item.image}
-<<<<<<< HEAD
-=======
-                                  // className="w-100"
->>>>>>> 28d2c2c9e964a60e1b1521db4121bcbb985b360f
                                   alt={item.title}
                                   width={100}
                                   height={75}
@@ -86,11 +74,6 @@ const Cart = () => {
                               <p>
                                 <strong>{item.title}</strong>
                               </p>
-<<<<<<< HEAD
-=======
-                              {/* <p>Color: blue</p>
-                              <p>Size: M</p> */}
->>>>>>> 28d2c2c9e964a60e1b1521db4121bcbb985b360f
                             </div>
 
                             <div className="col-lg-4 col-md-6">
